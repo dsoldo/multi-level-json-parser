@@ -35,7 +35,7 @@ This simple project aims to organize and sort all keys within a JSON file, inclu
 ## Using the Sorting Tool
 1. **Select a JSON file**
 
-2. **After selecting and validating the JSON file, click SORT**
+2. **Choose JSON file and click SORT**
 
 3. **If the JSON file is not identical to the RAW file, a Download button will appear, allowing you to download the sorted JSON file**
 
