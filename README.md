@@ -1,5 +1,7 @@
 # Project: Multi-Level JSON Parser (Initially designed for sorting i18n files with multiple levels/nested hierarchy)
 
+<img src="public/parser_screen.png">
+
 ## Description
 This simple project aims to organize and sort all keys within a JSON file, including multiple levels/nested hierarchy. The goal is to have all keys sorted alphabetically (multilevel) so that the file becomes more readable, easier to maintain, and better structured for adding new elements.
 
@@ -16,7 +18,7 @@ This simple project aims to organize and sort all keys within a JSON file, inclu
 ## Installation Instructions
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/multi-level-json-parser.git
+    git clone https://github.com/dsoldo/multi-level-json-parser.git
     cd your-repository-name
     ```
 
@@ -36,3 +38,65 @@ This simple project aims to organize and sort all keys within a JSON file, inclu
 2. **After selecting and validating the JSON file, click SORT**
 
 3. **If the JSON file is not identical to the RAW file, a Download button will appear, allowing you to download the sorted JSON file**
+
+## Example
+
+### RAW JSON:
+
+```json
+{
+  "id": 1,
+  "first_name": "John",
+  "last_name": "Doe",
+  "age": 30,
+  "email": "john.doe@example.com",
+  "phone": "+1234567890",
+  "address": "123 Main St, Springfield, IL",
+  "city": "Springfield",
+  "state": "Illinois",
+  "country": "USA",
+  "postal_code": "62701",
+  "job_title": "Software Engineer",
+  "company": "Tech Solutions Inc.",
+  "salary": 90000,
+  "marital_status": "Single",
+  "children_count": 0,
+  "hobbies": ["Reading", "Traveling", "Coding"],
+  "languages_spoken": ["English", "Spanish"],
+  "is_active": true,
+  "account_created": "2024-11-28"
+}
+```
+
+After Format
+```json
+{
+  "account_created": "2024-11-28",
+  "address": "123 Main St, Springfield, IL",
+  "age": 30,
+  "children_count": 0,
+  "city": "Springfield",
+  "company": "Tech Solutions Inc.",
+  "country": "USA",
+  "email": "john.doe@example.com",
+  "first_name": "John",
+  "hobbies": [
+    "Reading",
+    "Traveling",
+    "Coding"
+  ],
+  "id": 1,
+  "is_active": true,
+  "job_title": "Software Engineer",
+  "languages_spoken": [
+    "English",
+    "Spanish"
+  ],
+  "last_name": "Doe",
+  "marital_status": "Single",
+  "phone": "+1234567890",
+  "postal_code": "62701",
+  "salary": 90000,
+  "state": "Illinois"
+}
+```
