@@ -1,0 +1,111 @@
+.upload-section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.upload-button {
+  background-color: green;
+  color: white;
+  font-size: 18px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.upload-button:hover {
+  background-color: darkgreen;
+}
+
+.json-panels {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.json-panel {
+  width: 48%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.left-panel {
+  background-color: #f9f9f9;
+}
+
+.right-panel {
+  background-color: #f0f0f0;
+}
+
+.alert-info {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #d1ecf1;
+  border: 1px solid #bee5eb;
+  color: #0c5460;
+  border-radius: 5px;
+}
+
+.download-section {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.download-button {
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.download-button:hover {
+  background-color: #0056b3;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+
+.json-panel pre {
+  max-height: 400px;
+  overflow-y: auto;
+  background-color: #f7f7f7;
+  padding: 10px;
+  border-radius: 5px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.sort-clear-buttons {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.sort-clear-button {
+  background-color: #28a745;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  margin: 0 10px;
+}
+
+.sort-clear-button:hover {
+  background-color: #218838;
+}
+
+.clear-button {
+  background-color: #dc3545;
+}
+
+.clear-button:hover {
+  background-color: #c82333;
+}

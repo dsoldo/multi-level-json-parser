@@ -1,0 +1,31 @@
+<div class="upload-section">
+  <input type="file" (change)="onFileSelected($event)" class="upload-button" />
+  <div *ngIf="errorMessage" class="error-message">
+    {{ errorMessage }}
+  </div>
+  <div *ngIf="jsonContent && !isSorted" class="sort-clear-buttons">
+    <button (click)="sortJson()" class="sort-clear-button">Sort</button>
+    <button (click)="clearJson()" class="sort-clear-button clear-button">Clear</button>
+  </div>
+</div>
+
+<div class="json-panels">
+  <div class="json-panel left-panel">
+    <h3>Raw JSON</h3>
+    <pre>{{ rawJsonContent | json }}</pre>
+  </div>
+  <div class="json-panel right-panel">
+    <h3>Formatted JSON</h3>
+    <pre>{{ jsonContent | json }}</pre>
+  </div>
+</div>
+
+<div *ngIf="sortMessage" class="alert-info">
+  {{ sortMessage }}
+</div>
+
+<div *ngIf="showDownloadButton" class="download-section">
+  <button (click)="downloadJson()" [disabled]="!jsonContent" class="download-button">
+    Download Formatted JSON
+  </button>
+</div>
