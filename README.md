@@ -62,7 +62,7 @@ This simple project aims to organize and sort all keys within a JSON file, inclu
   "marital_status": "Single",
   "children_count": 0,
   "hobbies": ["Reading", "Traveling", "Coding"],
-  "languages_spoken": ["English", "Spanish"],
+  "languages_spoken": ["English", "Croatian"],
   "is_active": true,
   "account_created": "2024-11-28"
 }
@@ -80,18 +80,11 @@ After Format
   "country": "USA",
   "email": "john.doe@example.com",
   "first_name": "John",
-  "hobbies": [
-    "Reading",
-    "Traveling",
-    "Coding"
-  ],
+  "hobbies": ["Reading","Traveling","Coding"],
   "id": 1,
   "is_active": true,
   "job_title": "Software Engineer",
-  "languages_spoken": [
-    "English",
-    "Spanish"
-  ],
+  "languages_spoken": ["English","Croatian"],
   "last_name": "Doe",
   "marital_status": "Single",
   "phone": "+1234567890",
