@@ -99,4 +99,4 @@ Every comment, suggestion, or improvement is warmly welcomed! This project was c
 
 
 ## Demo
-[Link Text](https://multi-level-json-parser.web.app/) {target="_blank"}
+[Multi-Level JSON Parser](https://multi-level-json-parser.web.app/)
