@@ -1,6 +1,6 @@
 # Project: Multi-Level JSON Parser (Initially designed for sorting i18n files with multiple levels/nested hierarchy)
 
-<img src="public/parser_screen.png" als="Multi-Level JSON Parser">
+<img src="public/parser_screen.png" alt="Multi-Level JSON Parser">
 
 ## Description
 This simple project aims to organize and sort all keys within a JSON file, including multiple levels/nested hierarchy. The goal is to have all keys sorted alphabetically (multilevel) so that the file becomes more readable, easier to maintain, and better structured for adding new elements.
